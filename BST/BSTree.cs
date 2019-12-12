@@ -52,6 +52,11 @@ namespace BST
             }
             return current;
         }
+        public void Display()
+        {
+            current = start;
+            current.ChangePosition(start);
+        }
         public bool Search(int searchData)
         {
             current = start;

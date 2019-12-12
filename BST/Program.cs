@@ -12,11 +12,13 @@ namespace BST
         {
             BSTree bst = new BSTree();
             bst.Add(11);
-            bst.Add(22);
-            bst.Add(23);
-            bst.Add(14);
-
-            bst.Search(23);
+            bst.Add(2);
+            bst.Add(15);
+            bst.Add(6);
+            bst.Add(19);
+            bst.Display();
+            // bst.Search(5);
+            bst.Search(2);
             Console.ReadLine();
         }
     }

@@ -19,5 +19,14 @@ namespace BST
         {
             data = item;
         }
+        public void ChangePosition(Node node)
+        {
+            if (node == null)
+                return;
+            ChangePosition(node.left);
+            ChangePosition(node.right);
+            Console.WriteLine(" " + node.data);
+
+        }
     }
 }
